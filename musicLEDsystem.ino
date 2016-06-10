@@ -23,19 +23,7 @@ void setup() {
 
 
 void loop() {
-  //Serial.println(mode);
-  /*
-    Serial.println(frequency);
-    //Serial.println(analogRead(sensor));
 
-    Serial.print("Switch: ");
-    Serial.println(digitalRead(sw));
-    Serial.print("Y-axis: ");
-    Serial.println(analogRead(Y_axis));
-    Serial.print("X-axis: ");
-    Serial.println(analogRead(X_axis));
-    Serial.print("\n\n");
-  */
     //***********Mode 0 ********
   if(mode==0){
   //reading values from sonar sensor. typical range 0-150
